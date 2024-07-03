@@ -11,6 +11,12 @@ const Navbar = () => {
     .navbar-end {
       z-index: 1000;
     }
+    .navbar{
+    position: fixed;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
     `}</style>
     <div className="App">
       <header className="App-header">
@@ -23,14 +29,11 @@ const Navbar = () => {
                 </svg>
               </div>
               <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[60] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a href="/homepage">Homepage</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/about">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#galeriportfolio">Portfolio</a></li>
               </ul>
             </div>
-          </div>
-          <div className="navbar-center">
-            <a href="/" className="btn btn-ghost text-xl">Portfolio</a>
           </div>
           <div className="navbar-end">
             <div className="dropdown">
@@ -43,7 +46,6 @@ const Navbar = () => {
               <ul tabIndex={0} className="dropdown-content z-[60] p-2 shadow-2xl bg-base-300 rounded-box w-52">
                 <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Default" value="default"/></li>
                 <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Retro" value="retro"/></li>
-                <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Cyberpunk" value="cyberpunk"/></li>
                 <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Valentine" value="valentine"/></li>
                 <li><input type="radio" name="theme-dropdown" className="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Aqua" value="aqua"/></li>
               </ul>
