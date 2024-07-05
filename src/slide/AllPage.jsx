@@ -3,7 +3,6 @@ import NavbarComponent from '../components/NavbarComponents'
 import Home from './Home'
 import About from './About'
 import Galeriporto from './Galeriporto'
-// import Portfolio from './Portfolio'
 import FooterComponents from '../components/FooterComponents'
 
 const AllPage = () => {
@@ -14,7 +13,6 @@ const AllPage = () => {
     <About />
     <Galeriporto />
     <FooterComponents />
-    {/* <Portfolio /> */}
     </>
   )
 }

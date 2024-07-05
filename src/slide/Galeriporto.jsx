@@ -16,7 +16,7 @@ const Galeriporto = () => {
           align-items: flex-start;
           gap: 25px; /* Jarak antar kartu */
           margin-top: 40px;
-          padding-bottom: 60px;
+          padding-bottom: 80px;
         }
           .title1 {
           font-weight: bold;
@@ -40,7 +40,7 @@ const Galeriporto = () => {
         .card-body {
           text-align: left; /* Mengatur teks menjadi kiri */
         }
-          .card1:hover, .card2:hover, .card3:hover {
+        .card1:hover, .card2:hover, .card3:hover {
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Efek bayangan saat dihover */
         }
         @media (max-width: 768px) {
@@ -111,7 +111,7 @@ const Galeriporto = () => {
         </figure>
         <div className="card-body items-center p-4">
           <h2 className="card-title text-sm">Sertifikat</h2>
-          <p className="text-xs">Ini adalah sertifikat yang saya dapat saat saya menjadi siswi jurusan PPLG</p>
+          <p className="text-xs">Ini adalah sertifikat yang saya dapat selama menjadi siswi jurusan PPLG</p>
           <div className="card-actions">
           <a href="https://drive.google.com/drive/folders/1Jhjl4jwvfDh-CVKog8P0EXN_Muuz8HE8?usp=sharing" className="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Check</a>
         </div>
