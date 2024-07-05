@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56179552.css",
+    "main.js": "/static/js/main.5a64077c.js",
+    "static/media/intanoo.png": "/static/media/intanoo.e8be02413cf02f717ebb.png",
+    "static/media/frontend.png": "/static/media/frontend.e6ed9ef64eae29da3f94.png",
+    "static/media/sertifikat.png": "/static/media/sertifikat.d66d4845891792d07586.png",
+    "static/media/design.png": "/static/media/design.81c127f902ac0e2074b7.png",
+    "static/media/backend.png": "/static/media/backend.a3bfb5da6376d8342b9d.png",
+    "index.html": "/index.html",
+    "main.56179552.css.map": "/static/css/main.56179552.css.map",
+    "main.5a64077c.js.map": "/static/js/main.5a64077c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56179552.css",
+    "static/js/main.5a64077c.js"
+  ]
+}
